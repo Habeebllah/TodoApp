@@ -1,0 +1,87 @@
+
+.for{
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 20px 0px;
+}
+form input{
+    height: 3rem;
+    width: 50%;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+form input:hover{
+    border: 2px solid rgb(75, 206, 75);
+}
+form input:focus{
+    outline: none;
+    border: 2px solid rgb(75, 206, 75);
+}
+#text{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 3rem;
+    max-width: 13%;
+    width: 100%;
+    background-color: rgb(75, 206, 75);
+    color: white;
+    border: 1px solid rgb(75, 206, 75);
+    border-radius: 25px;
+    cursor: pointer;
+}
+#text:hover{
+    opacity: .7;
+}
+ul{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: rgb(75, 206, 75);
+    list-style-type: disc;
+    text-align: start;
+    font-size: 1.5rem;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    align-items: center;
+
+}
+.btn2{
+    margin-top: 10px;
+    height: 3rem;
+    width: fit-content;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.btn2:hover{
+    opacity: .7;
+}
+.btn3{
+    margin-top: 10px;
+    height: 3rem;
+    width: fit-content;
+    background-color: rgb(75, 206, 75);
+    color: white;
+    border: 1px solid rgb(75, 206, 75);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn3:hover{
+    opacity: .7;
+}
